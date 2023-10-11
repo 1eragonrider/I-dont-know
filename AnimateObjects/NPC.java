@@ -2,11 +2,13 @@ package AnimateObjects;
 
 import java.util.HashMap;
 import java.util.Map;
+import 
 
 public class NPC extends Character {
     // attributes
     private boolean isBeingInteractedWith;
     private String location;
+    private Stats statBlock;
     private Map<String, Character> relationsMap = new HashMap<String, Character>();
 
     // setters and getters
